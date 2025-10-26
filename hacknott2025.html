@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>LQ Platformer</title>
+        <script src="hackNott2025.js" type="text/JavaScript"></script>
+    </head>
+    <body>
+        <div id="menu" style="text-align: center">
+            <h1 style="font-size: 80pt">Platformer with Low Quality Visuals</h1>
+            <Button onClick="startGame()" style="font-size: 60pt" id="startButton">Play</Button><BR><BR>
+            <Button onClick="showControls()" style="font-size: 60pt" id="controlButton">Controls</Button><BR>
+            <h3>HackNotts2025 submission: team 22</h3>
+        </div>
+
+        <div id="controlScreen" hidden="true" style="font-size: 20pt; text-align: center">
+            <h2>Use A and D to move sideways</h2>
+            <h2>Press W or Space to jump</h2>
+            <h2>Left CLick to attack to the left</h2>
+            <h2>Right Click to attack to the right</h2>
+            <h2>Press S to enter the final boss room</h2>
+            <Button onClick="menu()" style="font-size: 60pt">Go Back</Button>
+        </div>
+
+        <div id="gameWindow" hidden="true" style="text-align: center">
+        <Canvas id="game" width="1500" height="650" style="background: lightblue; text-align: center"></Canvas>
+        </div>
+    </body>
+</html>
